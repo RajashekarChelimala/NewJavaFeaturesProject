@@ -27,6 +27,9 @@ public class Test {
 		intList.add(300);
 		intList.add(400);
 		intList.add(500);
+		
+		int maxNum = myInterface.getMaxNum(intList);
+		System.out.println("Max num : "+maxNum);
 
 	}
 

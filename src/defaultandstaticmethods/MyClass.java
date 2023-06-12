@@ -3,7 +3,7 @@ package defaultandstaticmethods;
 import java.util.Collections;
 import java.util.List;
 
-public class MyClass {
+public class MyClass implements MyInterface{
 
 	@Override
 	public int getMaxNum(List<Integer> intList) {

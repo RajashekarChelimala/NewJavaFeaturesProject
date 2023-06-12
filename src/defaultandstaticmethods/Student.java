@@ -1,6 +1,6 @@
 package defaultandstaticmethods;
 
-public class Student implements Comparable{
+public class Student implements Comparable<Student>{
 	
 	private String name;
 	private int age;
@@ -26,9 +26,10 @@ public class Student implements Comparable{
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
 	@Override
-	public int compareTo(Student o)) {
-		
+	public int compareTo(Student o) {
+		return this.getName().compareTo(o.getName());
 	}
 	
 }
