@@ -10,3 +10,9 @@
 -> We can extend an interface from another functional interface.
 
 -> List of functional interfaces are given in java.util.functions
+
+**Lambda Expression**
+
+-> Functional programming. 
+
+-> A function can be created without belonging to any class.
