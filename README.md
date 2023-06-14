@@ -11,6 +11,10 @@
 
 -> List of functional interfaces are given in java.util.functions
 
+-> Filtering - Predicate functional interface
+
+-> Action - Consumer functional interface
+
 
 **Lambda Expression**
 
@@ -30,7 +34,3 @@
 
 -> Eg: forEach() (lambda) or (method reference)
 
--> Filtering - Predicate functional interface
-
--> Action - Consumer functional interface
-         
