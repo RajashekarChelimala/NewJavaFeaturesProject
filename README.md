@@ -34,3 +34,7 @@
 
 -> Eg: forEach() (lambda) or (method reference)
 
+
+**Lambda Method Reference**
+
+
