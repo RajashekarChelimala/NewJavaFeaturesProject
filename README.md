@@ -11,8 +11,14 @@
 
 -> List of functional interfaces are given in java.util.functions
 
+
 **Lambda Expression**
 
 -> Functional programming. 
 
 -> A function can be created without belonging to any class.
+
+
+**Type Inference**
+
+Compilers ability to look each method invocation and corresponding declaration to determine the type argument(or arguments) that make the invocation applicable.
