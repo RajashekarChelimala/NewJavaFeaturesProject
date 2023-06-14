@@ -21,4 +21,12 @@
 
 **Type Inference**
 
-Compilers ability to look each method invocation and corresponding declaration to determine the type argument(or arguments) that make the invocation applicable.
+-> Inference is a Java Compilers ability to look each method invocation and corresponding declaration to determine the type argument(or arguments) that make the invocation applicable.
+
+**Internal Iterators**
+-> Controlled by JVM executed parallelly in the different cpu's.
+-> Eg: forEach() (lambda) or (method reference)
+
+-> Filtering - Predicate functional interface
+-> Action - Consumer functional interface
+         
