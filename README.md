@@ -35,6 +35,13 @@
 -> Eg: forEach() (lambda) or (method reference)
 
 
-**Lambda Method Reference**
+**Stream**
+
+A stream represents a sequence of objects from a source which supports aggregate operations.
 
 
+Stream has certain characteristics:
+
+1. Sequence of elements 
+2. Source - takes arrays, collections, io sources as input source
+3. Aggregate operaations - supports operations like map, filter, limit, reduce, find, match and so on..
