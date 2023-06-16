@@ -45,3 +45,6 @@ Stream has certain characteristics:
 1. Sequence of elements 
 2. Source - takes arrays, collections, io sources as input source
 3. Aggregate operaations - supports operations like map, filter, limit, reduce, find, match and so on..
+4. Pipelining - most of the stream operation return a stream itself so that their results can be pipelined. These operations are called intermediate operations and their fucntion is to take input and process them and return output to the target. collect() method is a terminal operation which is normally present at the end of the pipelining operation to mark the end of the stream.
+5. Automatic iteration - A stream operation do the iteration internally over the source elements provided in contrast to collections where explicit iteration is required.
+   
