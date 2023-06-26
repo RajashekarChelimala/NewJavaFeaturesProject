@@ -27,8 +27,6 @@ public class CollectionReplaceAll {
 
 		System.out.println("-------------------------------");
 
-		
-		
 		empList.replaceAll(e -> {
 			if (e.getSalary() > 60000.00) {
 				return e;
